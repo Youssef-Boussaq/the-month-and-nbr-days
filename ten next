@@ -1,0 +1,5 @@
+q = int(input("write a nember: "))
+s=0
+for i in range(1,11):
+    s=i+q
+    print(s)
