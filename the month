@@ -1,0 +1,9 @@
+mois = int(input("write the month : "))
+if mois in [4, 6, 9, 11]:
+        print("30")
+elif mois == 2:    
+        print("29 or 28")
+elif mois in [1,3, 5,7,8,10, 12]:
+        print("31")
+else:
+        print("dosen't existe")
